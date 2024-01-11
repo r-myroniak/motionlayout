@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
             Item("Title 9", "Description 9"),
         )
 
+        //Test version v1.1
+
         val adapter = CardsAdapter(list) {
             supportFragmentManager.beginTransaction().add(R.id.container, CardFragment(it))
                 .commit()
